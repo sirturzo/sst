@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.textt {
+    color: #fff;
+    font-size: 35px
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+/* Header Part  */
+
+header {
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+}
+
+.logo_part {
+    width: 50%;
+    float: left;
+}
+
+.menu-part {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.menu-part li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-part a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: ease-in-out 0.6s;
+}
+
+.menu-part a:hover {
+    background-color: #643a79;
+}
+
+.text {
+    padding: 150px 0px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    width: auto;
+}
+
+.INPUT[type="submit"] {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #eb7d4b;
+    width: 250px;
+    padding: 20px 0px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: #c86a40 0px 4px 0px 0px;
+    margin-top: -85px;
+    transition: ease-in-out 0.2s;
+    margin-bottom: 75px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: #eb7d4b 0px 0px 0px -5px;
+}
+
+.logo {
+    padding: 0px 0px;
+}
+
+
+/* Service Section  */
+
+#service {
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+}
+
+.service-writing-part {
+    width: 100%;
+    float: left;
+}
+
+.service-writing-part h1 {
+    font-size: 35px;
+}
+
+.service-box-part {
+    width: 100%;
+    float: left;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+.underline {
+    width: 8%;
+    border-bottom: 5px solid #14a58c;
+    margin: 20px auto;
+}
+
+.service_box {
+    width: 25%;
+    float: left;
+}
+
+.p {
+    margin-bottom: 75px;
+}
+
+.service_box h1 {
+    margin-top: 38px;
+    padding: 10px;
+}
+
+
+/* Section part 1  */
+
+#sector {
+    width: 100%;
+    float: left;
+    background-color: #e7f1f8;
+    text-align: center;
+}
+
+.writing-part h1 {
+    font-size: 35px;
+    color: #3c4761;
+}
+
+.underlinee {
+    width: 8%;
+    border-bottom: 5px solid #14a58c;
+    margin: 20px auto;
+}
+
+p {
+    color: #535e75;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.member-box {
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+
+.members {
+    width: 25%;
+    float: left;
+}
+
+.members h1 {
+    color: #3c4761;
+    margin-top: 30px;
+}
+
+.rank {
+    color: #79d0ee;
+    margin-bottom: 20px;
+}
+
+.img {
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+/* Section Part 2 */
+
+#sector2 {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.skill-writing-part h1 {
+    font-size: 35px;
+    color: #3c4761;
+}
+
+.skill-text {
+    color: #3c4761;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.underlineee {
+    width: 8%;
+    border-bottom: 5px solid #dfe8ed;
+    margin: 20px auto;
+}
+
+.skill-box-part {
+    width: 100%;
+    float: left;
+}
+
+.skill-box {
+    width: 25%;
+    float: left;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+
+/* Section Part 3  */
+
+#sector3 {
+    width: 100%;
+    float: left;
+    background-color: #ffdd99;
+    text-align: center;
+}
+
+.portfolio-writing-part h1 {
+    color: #393939;
+    font-size: 35px;
+}
+
+.underlineeeee {
+    width: 8%;
+    border-bottom: 5px solid #e5c37f;
+    margin: 20px auto;
+}
+
+.text-of-portfolio {
+    color: #393939;
+    font-size: 20px;
+}
+
+.menu-partt {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.portfolio-box img {
+    padding: 36px;
+    margin-top: 50px;
+}
+
+.input {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #17c2a4;
+    width: 300px;
+    padding: 25px 0px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: #14a58c 0px 4px 0px 0px;
+    margin-top: -85px;
+    transition: ease-in-out 0.2s;
+    margin-bottom: 30px;
+}
+
+.input:hover {
+    box-shadow: #eb7d4b 0px 0px 0px -5px;
+}
+
+.input-section {
+    margin-top: 120px;
+}
+
+.portfolio-box {
+    float: left;
+    width: 100%;
+}
+
+.picture1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.picture2 {
+    float: left;
+    width: 50%;
+    margin-left: -10px;
+    text-align: center;
+}
+
+
+/* Section 4  */
+
+#sector4 {
+    width: 100%;
+    float: left;
+    background-color: #d74680;
+    text-align: center;
+}
+
+.people-writing-part h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.underline-max {
+    width: 8%;
+    border-bottom: 5px solid #b73c6d;
+    margin: 20px auto;
+}
+
+.text-of-people {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.clint-box {
+    float: left;
+    width: 100%;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.claint1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.claint2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.arank {
+    padding: 85px;
+}
+
+
+/* Section part 5  */
+
+#sector6 {
+    width: 100%;
+    float: left;
+    background-color: #3c5499;
+    text-align: center;
+}
+
+.massege-writing-part h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.text-pro-max {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.underline-pro-max {
+    width: 8%;
+    border-bottom: 5px solid #273a71;
+    margin: 20px auto;
+}
+
+.massege-box-part {
+    float: left;
+    width: 100%;
+}
+
+.box-part-1 {
+    float: left;
+    width: 50%;
+}
+
+.box-part2 {
+    float: left;
+    width: 50%;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 18px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    background-color: #273a71;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 18px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    background-color: #273a71;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-top: 3%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #273a71;
+    color: #ffffff;
+}
+
+.section-c {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #30bae7;
+    width: 300px;
+    padding: 25px 0px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: #299ec5 0px 4px 0px 0px;
+    margin-top: -85px;
+    transition: ease-in-out 0.2s;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.section-c:hover {
+    box-shadow: #299ec5 0px 0px 0px -5px;
+}
+
+.input-section-c {
+    margin-top: 10%;
+}
+
+
+/* Section Part 7  */
+
+#sector-pro-max {
+    width: 100%;
+    float: left;
+    background-color: #344b8e;
+    text-align: center;
+}
+
+.website-name-section {
+    float: left;
+    width: 100%;
+}
+
+.facebook {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.facebook:hover {
+    color: #30bae7;
+}
+
+.twitter {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.twitter:hover {
+    color: #30bae7;
+}
+
+.google {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.google:hover {
+    color: #30bae7;
+}
+
+.Linkedin {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.Linkedin:hover {
+    color: #30bae7;
+}
+
+.Dribbble {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.Dribbble:hover {
+    color: #30bae7;
+}
+
+.github {
+    float: left;
+    width: 16%;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+.github:hover {
+    color: #30bae7;
+}
